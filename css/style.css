@@ -169,3 +169,39 @@ a:hover {
         margin-bottom: 20px;
     }
 }
+
+#works {
+    margin-bottom: 120px;
+}
+
+#works .works-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#works .works-list li {
+    width: 32%;
+    margin: 0 2% 2% 0;
+}
+
+ul {
+  padding: 0;
+}
+
+
+#works .works-list li:nth-child(3n) {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+    #works {
+        margin-bottom: 60px;
+    }
+    #works .works-list {
+        flex-direction: column;
+    }
+    #works .works-list li {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+}
