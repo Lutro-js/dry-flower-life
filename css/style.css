@@ -205,3 +205,9 @@ ul {
         margin: 0 0 20px;
     }
 }
+
+#footer {
+    font-size: 12px;
+    padding-bottom: 20px;
+    text-align: center;
+}
